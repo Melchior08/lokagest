@@ -1,0 +1,28 @@
+{
+  "name": "LokaGest - Gestion Locative",
+  "short_name": "LokaGest",
+  "description": "Plateforme mobile-first de gestion locative pour le marché béninois.",
+  "start_url": "/LokaGest/auth/login.php",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#16A34A",
+  "orientation": "portrait-primary",
+  "categories": [
+    "business",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/LokaGest/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/LokaGest/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

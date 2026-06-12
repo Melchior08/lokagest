@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: lokagest
+    env: php
+    buildCommand: ""
+    startCommand: php -S 0.0.0.0:$PORT -t .
+    envVars:
+      - key: APP_URL
+        sync: false
+      - key: APP_ENV
+        value: production
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: FEDAPAY_SECRET_KEY
+        sync: false
+      - key: FEDAPAY_ENV
+        value: sandbox
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: CALLMEBOT_API_KEY
+        sync: false
